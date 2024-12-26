@@ -1,0 +1,78 @@
+--- compute info:
+type ComputerInfo struct {
+	IP       string   // IP地址
+	System   string   // 操作系统
+	Hostname string   // 计算机名
+	Type     string   // 服务器类型
+	Path     []string // WEB目录
+}
+
+--- crontab:
+command:
+user:
+rule:
+
+--- docker:
+containerID:
+image:
+names:
+status:
+podIp:
+podMac
+
+--- listening:
+proto:
+address:
+pid:
+name:
+
+---- loginlog: es
+IP:
+Data    remote:
+        username:
+        status:
+        time:
+Time
+
+--- processlist:
+pid:
+ppid:
+name:
+command:
+
+--- service:
+
+--- startup:
+
+--- userlist:
+name:
+descripiton:
+
+--- webpath info:
+
+
+
+------------------------------------------------Net/Process/File
+--- connection: es
+IP:
+Data    dir:
+        protocol:
+        remote:
+        local:
+        pid:
+        name:
+Time
+
+--- file: es
+action:
+path:
+hash:
+user:
+
+--- process: es
+name:
+commmand:
+pid:
+parentname:
+ppid:
+info:
